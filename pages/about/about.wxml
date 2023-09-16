@@ -1,0 +1,34 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-article">
+            <!-- <image class="weui-article__img" src="../../image/clock.jpg" mode="aspectFit" style="height: 60px" /> -->
+            <view class="center_h">WXRKZ_time_list</view>
+            <view class="weui-article__section">
+
+                <view class="center_img">
+                    <image class="weui-article__img" src="../../image/about.png" mode="aspectFit" style="height: 180px" />
+                </view>
+                <view class="weui-article__p">
+                  『WXRKZ_time_list』\n 基于番茄工作法；帮助你高效专注于工作学习，提高效率，摆脱拖延；适用于考研自习、期末备考等场景。
+                </view>
+                <view class="weui-article__p">
+                  『WXRKZ_blog』https://wxrkz123.github.io/blog/
+                </view>
+                <view class="weui-article__h2">支持</view>
+                <view class="weui-article__p">
+                  喜欢该程序可以点击右上角【分享给好友或朋友圈】
+                </view>
+                <official-account></official-account>
+            </view>
+        </view>
+    </view>
+    <view class="before_footer"> </view>
+    <view class="about_footer">
+        <view class="weui-footer__links">
+            <navigator url="../version/version" class="weui-footer__link" style="color: #576b95;">V 1.0.0</navigator>
+            <button open-type='share' class="footer_button">分享好友</button>
+        </view>
+        <view class="weui-footer__text">Copyright 2023. WeChat@WXRKZ</view>
+    </view>
+
+</view>
